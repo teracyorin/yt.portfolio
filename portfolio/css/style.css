@@ -1,0 +1,334 @@
+@charset "UTF-8";
+
+/* cmn
+------------------------------- */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Hiragino Maru Gothic ProN", sans-serif;
+  line-height: 1.7;
+  color: #0E0B0B;
+}
+
+a {
+  text-decoration: none;
+  color: #0E0B0B;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+/* header
+------------------------------- */
+header {
+  background-color: #574B4B;
+  font-family: "Hiragino Maru Gothic ProN" , serif;
+}
+
+ul.menu_list {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 12%;
+}
+
+.menu_list li {
+  margin-left: 2rem;
+}
+
+li a {
+  color: #ffffff;
+}
+li a:hover {
+  color: #e9afaf;
+}
+
+/* TITLE
+------------------------------- */
+.top_image {
+  background-image: url(../image/top.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  opacity: 70%;
+}
+
+.top_text {
+  font-family: "Hiragino Maru Gothic ProN", serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: 12rem;
+  margin-left: 12rem;
+  padding: 0;
+  color: #F8E0E0;
+  text-shadow: 1px 0 5px black;
+}
+
+.myname {
+  font-size: 3.125rem;
+}
+
+.smoothText {
+  font-size: 3.125rem;
+}
+
+/* MAIN
+------------------------------- */
+.main_content {
+  margin-right: 12rem;
+  margin-left: 12rem;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-family: "Hiragino Maru Gothic ProN", serif;
+}
+
+/* SKILLS
+------------------------------- */
+#skill_section {
+  width: 100%;
+}
+
+.skill_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2.875em;
+  color: #ffffff;
+  text-shadow: 1px 0 5px black;
+}
+
+.skill_wrapper_tools {
+  padding-left: 10px;
+  justify-content: center;
+  margin-left: 156px;
+}
+
+.skill_set {
+  display: flex;
+  margin-top: 10px;
+}
+
+.skill_title {
+  font-family: "Hiragino Maru Gothic ProN", serif;
+  margin-top: 46px;
+  display: flex;
+}
+
+.skill {
+  margin-right: 10px;
+  width: 100%;
+}
+
+.skill_text {
+  font-size: small;
+  margin-top: 16px;
+}
+
+/* WORKS
+------------------------------- */
+.demosite_link {
+  display: flex;
+  vertical-align: top;
+  margin-top: 46px;
+  font-size: small;
+  width: 100%;
+  margin-left: 190px;
+}
+
+.grayscale img {
+  width: 100%;
+}
+
+.grayscale2 {
+  margin-left: 57px;
+}
+
+.demosite_link li:first-child {
+  margin: 0;
+}
+
+/* ABOUT
+------------------------------- */
+.about_wrapper {
+  background: #a89595 no-repeat center center /
+    cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: auto;
+  display: flex;
+  margin-top: 46px;
+}
+.about_image {
+  margin-top: 46px;
+  margin-left: 60px;
+  width: 20%;
+}
+
+.about_text_wrapper {
+  margin-top: 46px;
+  margin-bottom: 46px;
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 75%;
+}
+
+.about_text {
+  font-size: small;
+}
+
+/* CONTACT
+------------------------------- */
+#contact_section {
+  text-align: center;
+  font-family: "Hiragino Maru Gothic ProN", serif;
+  color: #2d2d33;
+}
+
+.contact_mail {
+  padding-top: 46px;
+}
+
+.contact_mail a:hover {
+  border-bottom: 3px dotted #e9afaf;
+}
+
+.contact_twitter {
+  padding-top: 23px;
+}
+.contact_twitter a:hover {
+  border-bottom: 3px dotted #e9afaf;
+}
+
+/* FOOTER
+------------------------------- */
+footer {
+  font-family: "Hiragino Maru Gothic ProN", serif;
+  background-color: #574B4B;
+  color: #ffffff;
+  height: 5vh;
+  text-align: center;
+  font-size: xx-small;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+/* @MEDIA
+------------------------------- */
+@media (max-width: 769px) {
+  .menu_nav {
+    width: 100%;
+  }
+  .menu_list li {
+    margin-left: 1rem;
+  }
+
+  .menu_list li:last-child {
+    margin-right: 1rem;
+  }
+  .top_image {
+    width: 100vw;
+    min-height: 60vh;
+    background-size: cover;
+    height: auto;
+  }
+
+  .top_text {
+    width: 50%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .myname {
+    font-size: 2rem;
+  }
+
+  .smoothText {
+    font-size: 1.5rem;
+  }
+
+  .menu_list {
+    width: 100%;
+  }
+
+  .main_content {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  h2 img {
+    width: 40%;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .skill_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill_wrapper_tools {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .skill {
+    margin-right: 15px;
+    width: 100%;
+  }
+  .skill:last-child {
+    margin-right: 0;
+  }
+
+  .demosite_link {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .demosite_link li {
+    margin-bottom: 2rem;
+  }
+  .demosite_link li:first-child {
+    margin-bottom: 2rem;
+  }
+
+  .about_wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .about_image {
+    margin: 2rem auto;
+    width: 40%;
+  }
+
+  .about_text_wrapper {
+    margin: 0;
+    padding: 1rem 1rem;
+    width: 90%;
+  }
+}
