@@ -121,12 +121,13 @@ h2 {
   text-shadow: 1px 0 5px black;
 }
 
-.skill_wrapper_tools {
-  padding-left: 10px;
-  justify-content: center;
-  margin-left: 156px;
+.skill_wrapper_design {
+  width: 50%;
 }
 
+.skill_wrapper_coding {
+  margin-left: 30px;
+}
 .skill_set {
   display: flex;
   margin-top: 10px;
@@ -297,8 +298,13 @@ footer {
     align-items: center;
   }
 
-  .skill_wrapper_tools {
-    /* padding-left: 0; */
+  .skill_wrapper_design {
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+  }
+  .skill_wrapper_coding {
+    width: 100%;
     justify-content: center;
     margin: 0;
   }
@@ -330,10 +336,13 @@ footer {
     margin: 0;
   }
 
-
   .about_wrapper {
     flex-direction: column;
     height: auto;
+  }
+
+  .about_text_wrapper h3 {
+    font-size: 1.1rem;
   }
 
   .about_image {
